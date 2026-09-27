@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="brandBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sleek Emblem -->
+  <g transform="translate(10, 16)">
+    <!-- Hexagonal Shield Outer -->
+    <polygon points="44,4 82,24 82,64 44,84 6,64 6,24" fill="url(#shieldGrad)" stroke="#334155" stroke-width="2" />
+    
+    <!-- Clean Dynamic Chevrons / Controller facet -->
+    <polygon points="44,14 72,29 72,59 44,74 16,59 16,29" fill="#0B0F17" stroke="url(#brandBlue)" stroke-width="2" />
+    
+    <!-- Geometric C-Core -->
+    <path d="M 52 35 L 36 35 L 30 44 L 30 54 L 36 63 L 52 63" stroke="#F8FAFC" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="52" cy="49" r="4.5" fill="#38BDF8" />
+  </g>
+
+  <!-- Refined Typography -->
+  <g transform="translate(112, 22)">
+    <!-- Brand Name -->
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="38" letter-spacing="1.5" fill="#FFFFFF">
+      CYBER<tspan fill="#38BDF8">CRAZE</tspan>
+    </text>
+    
+    <!-- Subtle Subtitle & City Tag -->
+    <text x="2" y="68" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="600" font-size="11.5" letter-spacing="3.5" fill="#94A3B8">
+      HQ GAMING SPACE · MYMENSINGH
+    </text>
+  </g>
+</svg>
